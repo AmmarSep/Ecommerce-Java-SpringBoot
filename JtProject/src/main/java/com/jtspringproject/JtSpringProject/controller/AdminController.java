@@ -1,12 +1,10 @@
 package com.jtspringproject.JtSpringProject.controller;
 
-import java.sql.*;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import com.mysql.cj.protocol.Resultset;
+import java.sql.*;
 
 @Controller
 public class AdminController {
